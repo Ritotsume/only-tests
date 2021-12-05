@@ -1,0 +1,30 @@
+{
+    "name": "ritotsume/only-tests",
+    "description": "Only tests",
+    "type": "project",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpmd/phpmd": "^2.11",
+        "phpstan/phpstan": "^1.2",
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "Basic\\": "tests/Basic/"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "cli/start.sh"
+        ]
+    }
+}

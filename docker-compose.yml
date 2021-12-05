@@ -1,0 +1,11 @@
+services:
+  php:
+    hostname: only-tests.test
+    build:
+      context: .
+      dockerfile: ./DevOps/php/Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+    working_dir: /var/www/html
