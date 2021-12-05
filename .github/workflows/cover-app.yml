@@ -16,5 +16,4 @@ jobs:
       - name: Run unit tests
         uses: php-actions/phpunit@v3
         with:
-          configuration: phpunit.xml
-          args: --coverage-text
+          configuration: tests/phpunit.xml
