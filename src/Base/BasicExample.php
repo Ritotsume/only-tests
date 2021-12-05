@@ -8,4 +8,9 @@ class BasicExample
     {
         return 1;
     }
+
+    public function anotherTest(): bool
+    {
+        return true;
+    }
 }
