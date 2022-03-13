@@ -13,13 +13,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\": "src/"
-        },
-        "Basic\\": "tests/Basic/"
+            "App\\": "src",
+            "App\\Tests\\": "tests"
+        }
     }
 }
