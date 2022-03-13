@@ -21,10 +21,5 @@
             "App\\": "src/"
         },
         "Basic\\": "tests/Basic/"
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "cli/start.sh"
-        ]
     }
 }
